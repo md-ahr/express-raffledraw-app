@@ -1,0 +1,31 @@
+{
+  "name": "express-raffledraw-app",
+  "version": "1.0.0",
+  "description": "A simple raffle draw app using express js",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "raffle draw",
+    "web app",
+    "express js"
+  ],
+  "author": "Abdul Halim",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "type": "module",
+  "engines": {
+    "node": "14.17.5"
+  }
+}
